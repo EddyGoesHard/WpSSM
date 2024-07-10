@@ -1,0 +1,18 @@
+name: WpSSM
+id: ari:cloud:compass:174bfcc0-4d3f-413f-8b5c-c601be9a81f2:component/da947674-957d-47a1-b0ab-b2de4ac64816/d7f31c85-4db2-4d2f-9671-73e108da81fe
+description: WP Security Sessions Manager is designed to offer website owners and administrators greater control over user sessions and to enhance the security of their WordPress sites.
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/EddyGoesHard/WpSSM
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields: null
